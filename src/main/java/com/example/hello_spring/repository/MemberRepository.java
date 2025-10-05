@@ -8,5 +8,5 @@ public interface MemberRepository {
     Member save(Member member); // 저장소
     Optional<Member> findById(Long id);
     Optional<Member> findByName(String name);
-    List<Member> findALl();
+    List<Member> findAll();
 }
