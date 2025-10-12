@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${post.title}">게시글 상세</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<div class="container mx-auto mt-10 max-w-3xl">
+    <div class="bg-white p-8 rounded-lg shadow-md">
+        <h1 class="text-4xl font-bold text-gray-900 mb-4" th:text="${post.title}">게시글 제목입니다.</h1>
+
+        <div class="flex items-center space-x-4 text-sm text-gray-500 border-b pb-4 mb-6">
+            <span>
+                상태:
+                <span class="font-semibold text-gray-700" th:text="${post.status.displayName}">공개</span>
+            </span>
+            <span>|</span>
+            <span>
+                작성일:
+                <span class="font-semibold text-gray-700" th:text="${#temporals.format(post.createdAt, 'yyyy-MM-dd HH:mm')}">2025-10-12 14:00</span>
+            </span>
+        </div>
+
+        <div class="prose max-w-none text-gray-800 whitespace-pre-wrap" th:text="${post.content}">
+            게시글 내용이 여기에 들어갑니다.
+            여러 줄에 걸친 내용도 잘 표시됩니다.
+        </div>
+
+        <div class="flex justify-end space-x-3 mt-8 border-t pt-6">
+            <a href="/posts" class="px-5 py-2 bg-gray-600 text-white font-semibold rounded-md hover:bg-gray-700 transition">
+                목록으로
+            </a>
+            <a th:href="@{/posts/{id}/edit(id=${post.id})}" class="px-5 py-2 bg-green-600 text-white font-semibold rounded-md hover:bg-green-700 transition">
+                수정하기
+            </a>
+            <a th:href="@{/posts/{id}/delete(id=${post.id})}"
+               onclick="return confirm('정말로 삭제하시겠습니까?')"
+               class="px-5 py-2 bg-red-600 text-white font-semibold rounded-md hover:bg-red-700 transition">
+                삭제하기
+            </a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -29,7 +29,7 @@ public class MemberController {
         Member member = new Member();
         member.setName(form.getName());
 
-        memberService.join(member);
+        memberService.join(member); // 회원가입 서비스 함수 join()
 
         return "rediret:/"; // 홈 화면으로 redirect
     }
