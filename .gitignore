@@ -1,1 +1,30 @@
+# Created by https://www.toptal.com/developers/gitignore/api/java,gradle,maven,intellij
+
+### IntelliJ ###
 .idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### Gradle ###
+.gradle/
+build/
+
+### Maven ###
+target/
+
+### Java ###
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
