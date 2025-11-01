@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aae86242-50f0-4bf9-b1a0-8043f8655a58" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hello/core/xml/XmlAppContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/appConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beandefinition/BeanDefinitionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/AnnotationConfigApplicationContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextBasicFindTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextExtendsFindTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/beanfind/ApplicationContextSameBeanFindTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment/0930_assignment/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment/0930_assignment/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment/0930_assignment/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment/0930_assignment/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment/0930_assignment/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment/0930_assignment/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hello/core/order/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/core/xml/XmlAppContext" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,43 +58,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MemberApp.executor": "Run",
-    "Application.OrderApp.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.core [:hello.core.CoreApplication.main()].executor": "Run",
-    "JUnit.ApplicationContextBasicFindTest.executor": "Run",
-    "JUnit.ApplicationContextExtendsFindTest.findAllBeanByObjectType.executor": "Run",
-    "JUnit.ApplicationContextExtendsFindTest.findAllBeanByParentType.executor": "Run",
-    "JUnit.ApplicationContextInfoTest.executor": "Run",
-    "JUnit.ApplicationContextSameBeanFindTest.executor": "Run",
-    "JUnit.ApplicationContextSameBeanFindTest.findAllBeanByType.executor": "Run",
-    "JUnit.BeanDefinitionTest.executor": "Run",
-    "JUnit.CoreApplicationTests.executor": "Run",
-    "JUnit.MemberServiceTest.executor": "Run",
-    "JUnit.OrderServiceTest.executor": "Run",
-    "JUnit.RateDiscountPolicyTest.executor": "Run",
-    "JUnit.RateDiscountPolicyTest.vip_x.executor": "Run",
-    "JUnit.XmlAppContext.executor": "Run",
-    "JUnit.XmlAppContext.xmlAppContext.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/cindy/projects/spring-boot/core",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MemberApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OrderApp.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.core [:hello.core.CoreApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApplicationContextBasicFindTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApplicationContextExtendsFindTest.findAllBeanByObjectType.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApplicationContextExtendsFindTest.findAllBeanByParentType.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApplicationContextInfoTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApplicationContextSameBeanFindTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ApplicationContextSameBeanFindTest.findAllBeanByType.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BeanDefinitionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CoreApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RateDiscountPolicyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RateDiscountPolicyTest.vip_x.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.XmlAppContext.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.XmlAppContext.xmlAppContext.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cindy/projects/spring-boot/core&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
