@@ -5,12 +5,14 @@ public class Member {
     private String name;
     private Grade grade;
 
-
+    // Member 엔티티
     public Member(Long id, String name, Grade grade) {
         this.id = id;
         this.name = name;
         this.grade = grade;
     }
+
+    // =======getter, setter========
 
     public Long getId() {
         return id;
