@@ -2,6 +2,8 @@
 // =======회원 서비스 구현체=========
 package hello.core.member;
 
+import org.springframework.context.annotation.Bean;
+
 // impl: 인터페이스에 대한 구현체가 하나만 있을 때 관례적으로  사용
 public class MemberServiceImpl implements MemberService{
     private final MemberRepository memberRepository;
@@ -20,5 +22,10 @@ public class MemberServiceImpl implements MemberService{
     @Override
     public Member findMember(Long memberId) {
         return memberRepository.findById(memberId);
+    }
+
+    // 테스트 용도
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
     }
 }
