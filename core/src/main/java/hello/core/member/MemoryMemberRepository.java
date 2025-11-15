@@ -3,9 +3,12 @@
 // 데이터베이스 확정이 되지 않았을 때 사용할 단순한 메모리 회원 저장소
 package hello.core.member;
 
+import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
 public class MemoryMemberRepository implements MemberRepository{
 
     // Map(설계): Long 타입 키로 Member 객체들을 저장

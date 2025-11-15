@@ -2,12 +2,16 @@
 // =======회원 서비스 구현체=========
 package hello.core.member;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 
+@Component
 // impl: 인터페이스에 대한 구현체가 하나만 있을 때 관례적으로  사용
 public class MemberServiceImpl implements MemberService{
     private final MemberRepository memberRepository;
 
+    @Autowired
     // 생성자
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
